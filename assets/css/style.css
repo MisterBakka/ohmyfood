@@ -1,0 +1,74 @@
+@charset "UTF-8";
+:root {
+  --Primary: #9356DC;
+  --Black-1: #000000;
+  --Black-2: #101010;
+  --White: #FFFFFF;
+  --Grey-1: #353535;
+  --Grey-2: #EAEAEA;
+  --Grey-3: #F6F6F6;
+  --Grey-4: #7E7E7E;
+  --Green: #99E2D0;
+  --Green-font: #008766;
+}
+
+body {
+  max-width: 1024px;
+  font-family: "Roboto", "Shrikhand", sans-serif;
+  font-style: normal;
+  background-color: var(--Grey-3);
+}
+h1 {
+  width: 275px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  max-width: 162px;
+  padding: 20px 0 10px 0;
+}
+
+.imageheader {
+  width: 100%;
+  background-color: var(--White);
+  margin: 0%;
+}
+.address {
+  width: 100%;
+  background-color: var(--Grey-2);
+  padding: 15px 0;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-left: 16px;
+}
+.main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 0 40px 0;
+  cursor: default;
+}
+.restaurant-exception {
+  width: 315px;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 16px 0;
+}
