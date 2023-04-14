@@ -11,6 +11,9 @@
   --Green: #99E2D0;
   --Green-font: #008766;
 }
+html {
+  max-width: 1024px;
+}
 
 body {
   max-width: 1024px;
@@ -71,4 +74,31 @@ button {
   font-weight: 300;
   font-size: 18px;
   margin: 16px 0;
+}
+.button-resto {
+  display: flex;
+  text-decoration: none;
+  width: 218px;
+  height: 50px;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  border-radius: 25px;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.25);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin: 16px 0;
+}
+.p-resto {
+  width: 225px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: var(--White);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  cursor: pointer;
+}
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--White);
+  padding: 50px 15px;
+  cursor: default;
 }
