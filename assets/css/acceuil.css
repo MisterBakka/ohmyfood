@@ -12,8 +12,13 @@
   --Green-font: #008766;
 }
 html {
-  max-width: 1024px;
+  width: 1024px;
   margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -212,34 +217,6 @@ button {
 }
 
 
-@media screen and (min-with: 1024px) {
-body {
-  min-width: 1024px;
-}
-
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -271,4 +248,77 @@ body {
 }
 .white {
   color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    margin: 0;
+    width: 100%;
+  }
+  body {
+    max-width: 100%;
+  }
+ .restaurant {
+    padding: 30px 0 0 0;
+  }
+ h1 {
+    width: 70%;
+    font-size: 40px;
+  }
+ p {
+    width: 100%;
+  }
+.fonctionnement {
+    justify-content: center;
+    padding: 50px 170px;
+  }
+  .fonctionnement-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.fctnmnt {
+    padding-right: 50px;
+  }
+.cards {
+    padding: 50px 170px;
+  }
+.liste-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .cards-resto {
+    min-width: 46%;
+    max-width: 490px;
+  }
+.footer {
+    flex-direction: row-reverse;
+    padding: 55px 20px 25px 20px;
+  }
+.footer-titre {
+    width: 137.58px;
+    margin-left: 80px;
+  }
+.footer-lien {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+a {
+    text-decoration: none;
+    color: var(--White);
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+.footer_link1 {
+    display: flex;
+    flex-direction: row;
+  }
+.footer_link2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+  }
 }
