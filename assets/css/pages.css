@@ -48,17 +48,17 @@
     width: 162px;
     padding: 15px 35px 10px 0;
   }
-  body main img {
+  .img {
     width: 100%;
     height: 275px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
-  body main .full_menu {
+ .full_menu {
     background-color: var(--Grey-3);
     margin: auto;
   }
-  body main .full_menu .menu {
+  .menu {
     position: relative;
     top: -50px;
     background-color: var(--Grey-3);
@@ -66,24 +66,24 @@
     padding: 25px 15px 10px 15px;
     margin-bottom: -55px;
   }
-  body main .full_menu .menu .menu_title {
+  .menu_title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-  body main .full_menu .menu h1 {
+ .menu h1 {
     width: 80%;
     font-family: "Shrikhand";
     font-style: italic;
     font-weight: 400;
     font-size: 28px;
   }
-  body main .full_menu .menu .heart {
+  .heart {
     padding-right: 25px;
     font-size: 25px;
   }
-  body main .full_menu .menu .heart:hover {
+ .heart:hover {
     cursor: pointer;
     background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     -webkit-background-clip: text;
@@ -93,20 +93,20 @@
     font-weight: bold;
     transition: all 0.5s;
   }
-  body main .full_menu .menu .menu_item {
+ .menu_item {
     margin-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
-  body main .full_menu .menu .menu_item h2 {
+ .menu_item h2 {
     width: 40px;
     border-bottom: 3px solid var(--Green);
     font-weight: 300;
     font-size: 16px;
     padding-bottom: 5px;
   }
-  body main .full_menu .menu .menu_item .item_full {
+ .item_full {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -121,13 +121,13 @@
     padding-left: 5px;
     overflow: hidden;
   }
-  body main .full_menu .menu .menu_item .item_full .item {
+ .item {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  body main .full_menu .menu .menu_item .item_full .item .item_text {
+.item_text {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -137,19 +137,19 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  body main .full_menu .menu .menu_item .item_full .item .item_text h3 {
+.item_text h3 {
     max-height: 21px;
     margin-bottom: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  body main .full_menu .menu .menu_item .item_full .item .item_text p {
+.item_text p {
     max-height: 19px;
     font-size: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  body main .full_menu .menu .menu_item .item_full .item b {
+  .item b {
     width: 10%;
     right: 0px;
     bottom: 0px;
@@ -159,7 +159,7 @@
     padding-top: 25px;
     padding-right: 10px;
   }
-  body main .full_menu .menu .menu_item .item_full .item .item_check {
+  .item_check {
     width: 0%;
     height: 69px;
     background-color: var(--Green);
@@ -169,7 +169,7 @@
     align-items: center;
     transition: all 0.3s;
   }
-  body main .full_menu .menu .menu_item .item_full .item .item_check .check {
+  .check {
     color: transparent;
     background-color: var(--White);
     border-radius: 50%;
@@ -181,10 +181,10 @@
     align-items: center;
     transition: all 0.3s;
   }
-  body main .full_menu .menu .menu_item .item_full .item:hover .item_check {
+.item:hover .item_check {
     width: 20%;
   }
-  body main .full_menu .menu .menu_item .item_full .item:hover .item_check .check {
+ .check {
     width: 20px;
     color: var(--Green);
     background-color: var(--White);
@@ -199,16 +199,16 @@
       opacity: 1;
     }
   }
-  body main .full_menu .menu .menu_item .animation_1 {
+ .animation_1 {
     animation: progressive 600ms ease-in-out;
   }
-  body main .full_menu .menu .menu_item .animation_2 {
+  .animation_2 {
     animation: progressive 1200ms ease-in-out;
   }
-  body main .full_menu .menu .menu_item .animation_3 {
+  .animation_3 {
     animation: progressive 1500ms ease-in-out;
   }
-  body main .full_menu .bouton {
+.bouton {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,7 +216,7 @@
     text-align: center;
     padding: 25px 0 30px 0;
   }
-  body main .full_menu .bouton .btn {
+  .btn {
     text-decoration: none;
     width: 218px;
     height: 50px;
@@ -225,7 +225,7 @@
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.25);
     transform: matrix(1, 0, 0, -1, 0, 0);
   }
-  body main .full_menu .bouton .btn p {
+ .btn p {
     width: 225px;
     font-size: 16px;
     font-weight: 500;
@@ -233,30 +233,30 @@
     transform: matrix(1, 0, 0, -1, 0, 0);
     padding-bottom: 15px;
   }
-  body .footer {
+.footer {
     display: flex;
     flex-direction: column;
     background-color: var(--Grey-1);
     padding: 25px 20px;
   }
-  body .footer h2 {
+.footer h2 {
     width: 100%;
     font-family: "Shrikhand";
     font-weight: 400;
     font-size: 18px;
     color: var(--White);
   }
-  body .footer .footer_link {
+.footer_link {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
   }
-  body .footer a {
+ .footer a {
     text-decoration: none;
     color: var(--White);
     margin-bottom: 5px;
   }
-  body .footer .footer_link1 {
+  .footer_link1 {
     display: flex;
     flex-direction: column;
   }
