@@ -44,11 +44,11 @@
     width: 100%;
     margin: 0;
   }
- .back_svg img {
+ .img-logo {
     width: 162px;
     padding: 15px 35px 10px 0;
   }
-  .img {
+  .imgmenus {
     width: 100%;
     height: 275px;
     -o-object-fit: cover;
@@ -270,51 +270,51 @@
       max-width: 100%;
       background-color: var(--White);
     }
-    body .header {
+    .header {
       width: 100%;
     }
-    body main img {
+    .img {
       width: 100%;
       height: 470px;
     }
-    body main .full_menu {
+    .full_menu {
       width: 1024px;
     }
-    body main .full_menu .menu {
+    .menu {
       padding: 25px 200px 10px 200px;
       box-sizing: border-box;
     }
-    body main .full_menu .menu .menu_title {
+    .menu_title {
       padding: 0 145px;
     }
-    body main .full_menu .menu .heart {
+    .heart {
       top: 3.5%;
       right: 370px;
     }
-    body .footer {
+    .footer {
       flex-direction: row-reverse;
       padding: 55px 20px 25px 20px;
     }
-    body .footer h2 {
+    .footer h2 {
       width: 137.58px;
       margin-left: 80px;
     }
-    body .footer .footer_link {
+    .footer_link {
       display: flex;
       flex-direction: row;
       margin-top: 10px;
     }
-    body .footer a {
+    .footer a {
       text-decoration: none;
       color: var(--White);
       margin-left: 15px;
       margin-bottom: 5px;
     }
-    body .footer .footer_link1 {
+    .footer_link1 {
       display: flex;
       flex-direction: row;
     }
-    body .footer .footer_link2 {
+    .footer_link2 {
       display: flex;
       flex-direction: row;
       margin-left: 20px;
