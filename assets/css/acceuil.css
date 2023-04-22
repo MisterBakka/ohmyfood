@@ -261,7 +261,7 @@ button {
  .restaurant {
     padding: 30px 0 0 0;
   }
- h1 {
+ h1cards {
     width: 70%;
     font-size: 40px;
   }
@@ -310,7 +310,7 @@ a {
     text-decoration: none;
     color: var(--White);
     margin-bottom: 5px;
-    margin-left: 15px;
+    
   }
 .footer_link1 {
     display: flex;
