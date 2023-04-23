@@ -170,6 +170,7 @@ button {
   color: var(--White);
   transform: matrix(1, 0, 0, -1, 0, 0);
   cursor: pointer;
+  padding: 13px;
 }
 .fonctionnement {
   display: flex;
@@ -306,7 +307,7 @@ button {
  .restaurant {
     padding: 30px 0 0 0;
   }
- h1cards {
+ h1 cards {
     width: 70%;
     font-size: 40px;
   }

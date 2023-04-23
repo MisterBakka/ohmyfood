@@ -184,7 +184,7 @@
 .item:hover .item_check {
     width: 20%;
   }
- .check {
+ .item:hover .item_check .check {
     width: 20px;
     color: var(--Green);
     background-color: var(--White);
