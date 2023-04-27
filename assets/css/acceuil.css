@@ -183,7 +183,7 @@ button {
   color: var(--White);
   transform: matrix(1, 0, 0, -1, 0, 0);
   cursor: pointer;
-  padding: 13px;
+  padding: 14px;
 }
 .fonctionnement {
   display: flex;
@@ -307,6 +307,13 @@ button {
 }
 .white {
   color: white;
+  margin: 5px;
+}
+.contact {
+  color: white;
+  margin: 5px;
+  padding: 0;
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -320,11 +327,14 @@ button {
  .restaurant {
     padding: 30px 0 0 0;
   }
- h1 cards {
+ h1 {
     width: 70%;
     font-size: 40px;
   }
  p {
+    width: 100%;
+  }
+  .restaurant-exception {
     width: 100%;
   }
 .fonctionnement {
