@@ -175,6 +175,10 @@ button {
   transition-duration: .25s;
   box-shadow: 0.25rem 0.25rem 10px rgba(0,0,0,.25);
 }
+.button-resto:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+}
 .p-resto {
   width: 100%;
   font-size: 16px;
@@ -227,6 +231,10 @@ button {
   counter-increment: my-counter;
   position: absolute;
   left: -10px;
+}
+.fctnmnt:hover {
+  background-color: rgb(245, 237, 255);
+  transition: all 0.5s;
 }
 .cards {
   padding: 50px 15px;
