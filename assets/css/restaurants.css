@@ -264,10 +264,7 @@
     display: flex;
     flex-direction: column;
   }
-  body .footer .footer_link2 {
-    display: flex;
-    flex-direction: column;
-  }
+ 
   
   @media screen and (min-width: 1024px) {
     body {
